@@ -3,7 +3,7 @@
 name,char=input("Enter two comma separated values: ").split(",")
 print(f"Length of {name} is {len(name.strip())}")
 
-# "  Shivani  "  -------> "Shivani"  ------> "shivani"
+# "  Dinesh "  -------> "Dinesh"  ------> "Dinesh"
 # "  I  "  -------> "I" -------> "i"
 
 print(f"{char} Character count is :{name.strip().lower().count(char.strip().lower())}")  # now name and Character both are in lower case 
